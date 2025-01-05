@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    --secondcolor: #018AE0;
+    --thirdcolor: #1446A0;
+
+}
+.blue{
+    background: var(--thirdcolor);
+}
+.top{
+    display: flex;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+    
+}
+.left{
+    display: flex;
+    gap: 40px;
+}
+.bx {
+    color: white; 
+    /* Ensures the icons are white */
+    display: inline-flex; /* Aligns icon and text in a single row */
+    vertical-align: middle;
+    font-size: 28px;
+}
+
+.location, .email, .phone {
+    display: flex; /* Aligns icon and text in a single row */
+    align-items: center; /* Vertically centers the icon with the text */
+    gap: 10px; /* Adds space between icon and text */
+}
+
+.white, #email, #number {
+    color: white; /* Ensures the text is white */
+    font-size: 20px; /* Maintains font size */
+    margin: 0; /* Removes default margins */
+    display: inline-block; /* Keeps text inline with icon */
+}
+
